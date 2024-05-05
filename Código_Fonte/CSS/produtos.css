@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #fffefe89;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons img {
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.icons a {
+    color: #000000;
+    margin: 10px;
+}
+
+main {
+    background-image: url('Imagem/fundo_agricultores.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: calc(100vh - 180px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.itens {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.produto a {
+    text-decoration: none; 
+    color: inherit; 
+    cursor: pointer; 
+    display: block; 
+}
+
+.itens h2{
+    font-size: 3em;
+    color: #024e02;
+}
+
+.itens .produtos h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.itens h4 {
+    margin-top: 5px;
+    text-decoration:line-through  ;
+    color: #e10505;
+}
+
+.itens p{
+    color: #494848;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produtos {
+    list-style-type: none;
+}
+
+.produto {
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.produto p {
+    margin-top: 5px;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #8DB255;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+}

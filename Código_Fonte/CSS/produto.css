@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #f2f2f289;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons img {
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.icons a{
+    color: #000000;
+    margin: 10px;
+}
+
+main {
+    background-image: url('Imagem/fundo_agricultores.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: calc(100vh - 180px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.product-details {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    font-size: 18px;
+}
+
+.product-name {
+    margin-bottom: 20px; 
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+}
+
+.product-details button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #006400;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.product-details h1{
+    color:#006400
+}
+
+.product-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.description-price {
+    flex: 1;
+}
+
+.product-info .product-image {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.description-price p {
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.ratings {
+    margin-top: 20px;
+}
+
+.ratings h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.review {
+    margin-bottom: 15px;
+}
+
+.review p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.review .rating {
+    color: #555;
+    font-style: italic;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #8DB255;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+}

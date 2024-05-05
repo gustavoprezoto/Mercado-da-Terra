@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #f2f2f289;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons img {
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.icons a{
+    color: #000000;
+    margin: 10px;
+}
+
+.busca button:hover {
+    background-color: #f2f2f289;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#search {
+    padding: 40px 0;
+    text-align: center;
+}
+
+#search h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#search form {
+    margin-bottom: 20px;
+}
+
+#search input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search button {
+    padding: 10px 20px;
+    background-color: #8DB255;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.search-suggestions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.search-suggestions p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-grid figure {
+    margin: 10px;
+    text-align: center;
+}
+
+.product-grid img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product-grid figcaption {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+
+
+footer {
+    margin-top: auto;
+    background-color: #8DB255;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+}

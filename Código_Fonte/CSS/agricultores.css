@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #fffefe89;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 80px;
+    height: auto;
+    margin-right: 100px; 
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons img {
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.icons a{
+    color: #000000;
+    margin: 10px;
+}
+
+main {
+    background-image: url('Imagem/fundo_agricultores.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: calc(100vh - 180px); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+  }
+  
+.produtor {
+    width: 50%; 
+    background-color: #7c9f46;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 15px auto; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.produtor img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.produtor h2 {
+    margin: 0;
+}
+
+.produtor p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .produtor {
+        width: 100%; /* Altera a largura para 100% em telas menores */
+    }
+}
+
+footer {
+    margin-top: auto;
+    background-color: #8DB255;
+    padding: 20px 0;
+    text-align: center;
+}
+  
+footer p {
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+}

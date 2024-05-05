@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+
+header {
+    background-color: #f2f2f289;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+    margin-right: 100px; 
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons img {
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.icons a{
+    color: #000000;
+    margin: 10px;
+}
+
+.busca button:hover {
+    background-color: #f2f2f289;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#purpose .benefit {
+    margin-top: 30px; 
+}
+
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.benefit {
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 20px;
+}
+
+.benefit h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.benefit:nth-child(1) {
+    background-color: #72b11344;
+    border-radius:10px;
+    align-items: center;
+}
+
+.benefit:nth-child(2) {
+    background-color: #72b11344;
+    border-radius:10px;
+    align-items: center;
+}
+
+.benefit:nth-child(3) {
+    background-color: #72b11344;
+    border-radius:10px;
+    align-items: center;
+}
+
+.benefit:nth-child(4) {
+    background-color: #72b11344;
+    border-radius:10px;
+    align-items: center;
+}
+
+#sustainable-development-goals {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sustainable-development-goals h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#sustainable-development-goals p {
+    font-size: 18px;
+    text-align: justify;
+    max-width: 600px;
+}
+
+#sustainable-development-goals .content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#sustainable-development-goals .content figure {
+    margin-right: 20px;
+}
+
+#sustainable-development-goals .content img {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#sustainable-development-goals .content2 {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#sustainable-development-goals .content2 figure {
+    margin-right: 20px;
+}
+
+#sustainable-development-goals .content2 img {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#sustainable-development-goals .content2 p {
+    font-size: 18px;
+    text-align: justify;
+    max-width: 600px;
+}
+
+
+footer {
+    background-color: #8DB255;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+}

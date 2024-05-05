@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Cadastro - Mercado da Terra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+<body>
+    <header>
+        <figure class="logo">
+            <a href="Inicio.html">
+                <img src="Imagem/Logo.png" alt="Logo">
+            </a>
+        </figure>
+
+        <nav class="menu">
+            <a href="Produtos.html">Produtos</a>
+            <a href="Agricultores.html">Agricultores</a>
+            <a href="sobre.html">Sobre</a>
+        </nav>
+
+        <nav class="icons">
+            <a href="Busca.html"><span class="material-icons-outlined">search</span></a>
+            <a href="Login.html"><span class="material-symbols-outlined">person</span></a>
+            <a href="Carrinho.html"><span class="material-symbols-outlined">shopping_cart</span></a>
+        </nav>
+    </header>
+
+    <div class="wrapper" style="background-image: url('Imagem/inicio.jpg');">
+        <div class="conteudo">
+            <div class="imagem">
+                <img src="Imagem/imagem_formulario.jpg" alt="imagem Formulário">
+            </div>
+            <form class="formulario"> <!--8 CAMPOS DE FORMULÁRIO-->
+                <h3>Formulário de Registro</h3>
+                <div class="grupo-campos">
+                    <input type="text" placeholder="Nome" class="campo" required>
+                    <input type="text" placeholder="Sobrenome" class="campo" required>
+                </div>
+                <div class="campo-wrapper">
+                    <input type="text" placeholder="Nome de Usuário" class="campo" required>
+                    <input type="text" placeholder="Endereço de E-mail" class="campo" required>
+                    <input type="text" placeholder="Endereço" class="campo" required>
+                    <input type="password" placeholder="Senha" class="campo" required>
+                    <input type="password" placeholder="Confirmar Senha" class="campo" required >
+                    <input  class="botao" type="submit" value="CADASTRAR" onclick="window.location.href='login.html';">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mercado da Terra. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
